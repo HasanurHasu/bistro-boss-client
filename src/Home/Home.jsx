@@ -1,9 +1,12 @@
-import React from 'react';
+import Banner from "../Pages/Banner/Banner";
+import Category from "./Category";
+
 
 const Home = () => {
     return (
         <div>
-            <h1>This is home</h1>
+            <Banner></Banner>
+            <Category></Category>
         </div>
     );
 };
